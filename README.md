@@ -18,7 +18,7 @@ while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() \
             < dt(dt.now().year, dt.now().month, dt.now().day, 18):
 ```
-##### change this line to
+##### Change this line to
 #
 ```
 while True:
@@ -27,6 +27,11 @@ while True:
 ```
 ##### If you want to change the work hours to 9AM to 5PM
 #
+##### To add websites to the block list, append the domain name of the website to this list which currently has instagram.com
+#
+```
+websites_list = ['www.instagram.com', 'instagram.com']
+```
 ### Get started(MAC/Linux)
 #
 ```
